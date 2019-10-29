@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/HarwinBorger/SpaceDocumentation#readme",
   "dependencies": {
-    "spaceframework": "^1.0.0-alpha.2",
+    "spaceframework": "^1.0.0-alpha.3",
     "vuepress": "^1.0.0-alpha.48"
   },
   "devDependencies": {
