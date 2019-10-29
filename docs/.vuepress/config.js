@@ -4,7 +4,7 @@ let sidebar = [
 		children: [
 			['getting-started/welcome', 'Welcome'],
 			['getting-started/installation', 'Installation'],
-			['getting-started/integration', 'Integration'],
+			['getting-started/integration', 'Your project'],
 			['getting-started/itcss', 'ITCSS']
 		]
 	},
@@ -89,6 +89,11 @@ module.exports = {
 	themeConfig: {
 		sidebar: sidebar,
 		nav: navbar,
+		// Assumes GitHub. Can also be a full GitLab url.
+		repo: 'HarwinBorger/SpaceDocumentation',
+		docsDir: 'docs',
+		editLinks: true,
+		editLinkText: 'Help us improve this page!'
 	},
 	markdown: {
 		toc: {includeLevel: [2]},
