@@ -97,5 +97,13 @@ module.exports = {
 	},
 	markdown: {
 		toc: {includeLevel: [2]},
-	}
+	},
+	plugins: [
+		[
+			'@vuepress/google-analytics',
+			{
+				'ga': 'UA-142104628-2' // UA-00000000-0
+			}
+		]
+	]
 };
