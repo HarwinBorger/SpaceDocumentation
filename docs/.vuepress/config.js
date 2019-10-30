@@ -78,8 +78,9 @@ const path = require("path");
 let navbar = [
 //	{text: 'Home', link: '/'},
 	{text: 'DOCS', link: '/'},
-//	{text: 'Examples', link: '/examples/'},
-	{text: 'Github', link: 'https://github.com/HarwinBorger/SpaceFramework'},
+	{text: 'SpaceFramework.dev', link: 'https://spaceframework.dev'},
+	{text: 'Github SpaceFramework', link: 'https://github.com/HarwinBorger/SpaceFramework'},
+	{text: 'Github SpaceDocumentation', link: 'https://github.com/HarwinBorger/SpaceDocumentation'},
 ];
 
 module.exports = {
@@ -90,7 +91,6 @@ module.exports = {
 		sidebar: sidebar,
 		nav: navbar,
 		// Assumes GitHub. Can also be a full GitLab url.
-		repo: 'HarwinBorger/SpaceDocumentation',
 		docsDir: 'docs',
 		editLinks: true,
 		editLinkText: 'Help us improve this page!'
