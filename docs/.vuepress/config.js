@@ -4,7 +4,7 @@ let sidebar = [
 		children: [
 			['getting-started/welcome', 'Welcome'],
 			['getting-started/installation', 'Installation'],
-			['getting-started/integration', 'Your project'],
+			['getting-started/setup-guide', 'Setup guide'],
 			['getting-started/itcss', 'ITCSS']
 		]
 	},
