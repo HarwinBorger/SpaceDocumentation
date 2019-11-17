@@ -63,6 +63,12 @@ let sidebar = [
 			['functions/su.md', 'Su()'],
 		]
 	},
+	{
+		title: '3rd party support',
+		children:[
+			['3rd-party/foundation','Zurb Foundation']
+		]
+	}
 //	{
 //		title: 'External Links',
 //		children:[
