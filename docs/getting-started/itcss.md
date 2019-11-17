@@ -2,7 +2,7 @@
 
 #### The SpaceFramework uses the ITCSS architecture for its directory structure. In this article we explain what ITCSS is and how it can work to organize your projects even better. 
 
-If you are familiar using ITCSS, then it is very easy to integrate the SpaceFramework in your own project. You can read more about integration [here](getting-started/integration). 
+If you are familiar using ITCSS, then it is very easy to integrate the SpaceFramework in your own project. You can read more about this in the  [Setup guide](getting-started/setup-guide). 
 
 If you are not using ITCSS, then you might consider the **ITCSS architecture**. In this article we explain how ITCSS works and how it helps you organize your CSS code.
 
