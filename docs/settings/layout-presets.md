@@ -1,15 +1,14 @@
 # Layout Presets
 
-Within layout presets you define the global spacings of a layout. A good design uses only several different spacing types. Those are spacings between and inside  sections, elements, blocks etc. Those spacings may be different on different viewports. All of those settings can be defined in layout-presets.
+Within layout presets you define the global spacings of a layout. A good design uses only several different spacing types. Those are spacings between and inside  sections, elements, blocks etc. The size of spacings may be different on different viewports. All of those settings can be defined within layout-presets. Layout-presets will generate [Layout Classes](layout/layout-classes.md) which you can use to apply the spacings on your elements. 
 
-## Generation of classes
-As a result you never have to define the spacings on your sections, elements and block any longer. From now on you can use layout-classes for that.  
+Using layout presets for your global spacing will result in faster development and a better user-experience.  
 
 Learn more about applying [Layout Classes](layout/layout-classes.md)
 
 
 **Table of content**
-- [Setup](#setup)
+[[toc]]
 
 ## Setup
 
