@@ -1,19 +1,19 @@
 # Font Mixins
-#### Use font-preset and font-size mixin to define your typography. Which is usually done in the as high as possible. 
+#### Use text-preset and font-size mixin to define your typography. Which is usually done in the as high as possible. 
 
 
-## @font-preset
-The use of Font-preset is required to make use of [vertical alignment classes](typography/vertical-alignments.md) such as `.align-baseline`.
+## @text-preset
+The use of Text-preset is required to make use of [vertical alignment classes](typography/vertical-alignments.md) such as `.align-baseline`.
 
 ```scss
-@include font-preset($value = default, $vertical-align = true);
+@include text-preset($value = default, $vertical-align = true);
 ```
 
-Were **$value** is one of the defined presets from your Font-presets setting file.
+Were **$value** is one of the defined presets from your Text-presets setting file.
 
 **Example:**
 ```scss
-	@include font-preset(x-large);
+	@include text-preset(x-large);
 ```
 
 
@@ -23,7 +23,7 @@ Were **$value** is one of the defined presets from your Font-presets setting fil
 #### ** How to use **
 ```scss
 h2 {
-	@include font-preset(large, false);
+	@include text-preset(large, false);
 }
 ``` 
 #### ** Generated CSS **

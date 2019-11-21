@@ -24,7 +24,7 @@ let sidebar = [
 			['settings/space-units.md', 'Space Units'],
 			['settings/layout-presets.md', 'Layout Presets'],
 			['settings/fonts.md', 'Fonts'],
-			['settings/font-presets.md', 'Font Presets'],
+			['settings/text-presets.md', 'Text Presets'],
 			['settings/support-legacy.md', 'Support & Legacy Browers'],
 		]
 	},
@@ -42,7 +42,7 @@ let sidebar = [
 	{
 		title: 'Typography & Content',
 		children: [
-			['typography/font-classes.md', 'Font Classes'],
+			['typography/text-classes.md', 'Text Classes'],
 			['typography/vertical-alignments.md', 'Vertical Alignment Classes'],
 			['typography/self-classes.md', 'Self Classes'],
 			['typography/font-mixins.md', '@Font'],
