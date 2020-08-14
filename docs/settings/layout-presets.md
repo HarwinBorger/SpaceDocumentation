@@ -10,7 +10,7 @@ Learn more about applying [Layout Classes](layout/layout-classes.md)
 **Table of content**
 [[toc]]
 
-## Setup
+## Configuration
 
 ### 1. Copy configuration file
 Copy `spaceframework/scss/1.settings/layouts-presets.scss` to your scss project. Or copy it to your `1.settings` directory within an [ITCSS structure](getting-started/itcss.md)
