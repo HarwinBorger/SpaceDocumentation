@@ -9,17 +9,21 @@ This can be done by using classes such as
 
 By applying the css class `.align-baseline` on an **container element** you can align all (defined) **children**  by its **baseline** on the **space-unit grid**. This includes headings, images, tables etc.
 
+<Typography-VerticalAlignment-Align-Baseline />
 
 ## Capline alignment
 **Classname:** `.align-capline`
 
 By applying the css class `.align-capline` on an **container element** you can align all (defined) **children** by its **capline** on the **space-unit grid**. This includes headings, images, tables etc.
 
+<Typography-VerticalAlignment-Align-Capline />
 
 ## Median alignement
 **Classname:** `.align-median`
 
 By applying the css class `.align-median` on an **container element** you can align all (defined) **children**  by its **median** on the **space-unit grid**. You should probably apply this only on headings.
+
+<Typography-VerticalAlignment-Align-Median/>
 
 
 ## Cross Alignment

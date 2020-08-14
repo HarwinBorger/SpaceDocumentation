@@ -1,0 +1,21 @@
+/**************************************************************
+ * ADVANCED CORE SETTINGS
+ *
+ * Context:
+ * - Space Support
+ * - Space Legacy
+ **************************************************************/
+
+/**
+ * TYPOGRAPHY SUPPORT
+ *
+ * Using automatic generation of typographic classes takes much space, you can turn off typography alignment if you don't intend to use it.
+ */
+$space-support: (
+	align-baseline: true,
+	align-capline: true,
+	align-median: true,
+	fit-baseline: true,
+	fit-capline: true,
+	align-reset: true
+);

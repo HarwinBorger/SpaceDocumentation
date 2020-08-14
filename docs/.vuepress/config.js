@@ -52,7 +52,6 @@ let sidebar = [
 			['utility-classes/trim.md', 'Trim'],
 			['utility-classes/implode.md', 'Implode'],
 			['utility-classes/fit.md', 'Fit'],
-			['utility-classes/shift.md', 'Shift'],
 		]
 	},
 	{
