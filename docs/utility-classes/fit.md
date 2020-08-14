@@ -7,7 +7,7 @@ Currently this only works combined with `.align-baseline` and `.align-capline` c
 
 ## Introduction
 
-### Benefits of using .fit classs
+### Benefits of using .fit class
 - No longer you need to give your padding strange values to compensate for line-heights. 
 
 ## Example
@@ -18,9 +18,25 @@ Currently this only works combined with `.align-baseline` and `.align-capline` c
 <Utility-Fit-Fit-After />
 
 ## Requirements
-- Use of text-presets is required in order to have the Fit class work
+- Use of text-presets classes or mixins is required in order to have the Fit class work
 
 ## Specifications
 **Classname:** `.fit`
+
+## How to use
+#### HTML input:
+```html
+<div class="align-baseline fit">
+	<div class="text-preset-xlarge">xLarge</div>
+	<div class="text-preset-default">Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere
+		consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis
+		euismod.
+	</div>
+</div>
+```
+
+#### HTML output:
+<Utility-Fit-Fit-After />
 
 > We will add documentation soon
