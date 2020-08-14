@@ -11,19 +11,16 @@ Learn more about applying [Layout Classes](layout/layout-classes.md)
 [[toc]]
 
 ## Configuration
+Copy `spaceframework/scss/1.settings/_layouts-presets.scss` to your scss project. Then remove `!default` at the end of the file. 
 
-### 1. Copy configuration file
-Copy `spaceframework/scss/1.settings/layouts-presets.scss` to your scss project. Or copy it to your `1.settings` directory within an [ITCSS structure](getting-started/itcss.md)
-
-### 2. Configurating the `$layout-preset` 
-If you would start empty you start with
-```scss
+You can also create a new file named `_layout-presets.scss`:
+```scss 
 $layout-presets: (
 	// add your settings here
 );
 ```
-### 3. Adding a layout 
-Add a layout size such as `section`. Then add viewport sizes. For each size you can define the offset of a section written in [space-units](/settings/space-units.md)
+### 1. Adding a new layout preset 
+You can add a layout preset such as `section`. Then add viewport sizes. For each viewport size you can define the offset of a section written in [space-units](/settings/space-units.md). 
 ```scss {2-8}
 $layout-presets: (
 	section:(

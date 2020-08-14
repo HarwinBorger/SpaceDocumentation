@@ -26,16 +26,9 @@ let sidebar = [
 		]
 	},
 	{
-		title: 'Presets',
-		children: [
-			['settings/layout-presets.md', 'Layout Presets'],
-			['settings/fonts.md', 'Fonts'],
-			['settings/text-presets.md', 'Text Presets'],
-		]
-	},
-	{
 		title: 'Layout',
 		children: [
+			['layout/layout-presets.md', 'Layout Presets'],
 			['layout/layout-classes.md', 'Layout Classes'],
 			['layout/margin.md', '@Margins'],
 			['layout/padding.md', '@Paddings'],
@@ -45,12 +38,12 @@ let sidebar = [
 		]
 	},
 	{
-		title: 'Typography & Content',
+		title: 'Typography',
 		children: [
-			['typography/text-classes.md', 'Text Classes'],
-			['typography/vertical-alignments.md', 'Vertical Alignment Classes'],
+			['typography/font-presets.md', 'Font Presets'],
+			['typography/text-presets.md', 'Text Presets'],
+			['typography/vertical-alignments.md', 'Vertical Alignment'],
 			['typography/self-classes.md', 'Self Classes'],
-			['typography/font-mixins.md', '@Font'],
 		]
 	},
 	{
@@ -107,7 +100,7 @@ module.exports = {
 		editLinkText: 'Help us improve this page!'
 	},
 	markdown: {
-		toc: {includeLevel: [2]},
+		toc: {includeLevel: [2,3]},
 	},
 	plugins: [
 		[
