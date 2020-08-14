@@ -22,10 +22,15 @@ let sidebar = [
 		children: [
 			['settings/viewports.md', 'Viewports'],
 			['settings/space-units.md', 'Space Units'],
+			['settings/support-legacy.md', 'Support & Legacy Browers'],
+		]
+	},
+	{
+		title: 'Presets',
+		children: [
 			['settings/layout-presets.md', 'Layout Presets'],
 			['settings/fonts.md', 'Fonts'],
 			['settings/text-presets.md', 'Text Presets'],
-			['settings/support-legacy.md', 'Support & Legacy Browers'],
 		]
 	},
 	{
