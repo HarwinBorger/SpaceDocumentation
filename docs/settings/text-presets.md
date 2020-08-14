@@ -46,6 +46,6 @@ $text-presets: (
 > Use a font from the list in [fonts](fonts.md). When not given up the *default* will be used. 
 Fill in for example: `default` or `secondary`
 
+<Badge text="1.1+"/>
 - `(string|variable)` **color:** (optional)
-
 - `(string|variable)` **font-weight:** (optional)
