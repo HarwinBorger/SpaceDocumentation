@@ -3,7 +3,7 @@
 
 
 ## What are text presets?
-Text presets can be used to manage all different text styles in your website. This is done by centralizing them at one place. They are very strong for managing different `font-sizes` and `line-heights`.
+Text presets can be used to manage all different text styles in your website. This is done by centralizing text styles at one place. They are very strong for managing different `font-sizes` and `line-heights`.
 
 ## Why should I use it?
 - Avoids writing double code
@@ -11,6 +11,7 @@ Text presets can be used to manage all different text styles in your website. Th
 - Improve responsive typography 
 - Higher CSS performance
 - Less code writing
+- They can be used to archive [baseline alignment](../typography/vertical-alignments.md) 
 
 
 ## Configuration
