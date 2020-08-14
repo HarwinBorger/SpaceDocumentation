@@ -33,7 +33,7 @@ $layout-presets: (
 );
 ```
 
-### 4. Generation of classes
+### 2. Generation of classes
 Well done now, you can now use [layout classes](/layout/layout-classes.md).
 
 > Please note: When you used 'advanced setup' to setup your project you have to actually call `@include layout-classes();` to generate layout-classes 

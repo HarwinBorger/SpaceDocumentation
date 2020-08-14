@@ -100,7 +100,7 @@ module.exports = {
 		editLinkText: 'Help us improve this page!'
 	},
 	markdown: {
-		toc: {includeLevel: [2,3]},
+		toc: {includeLevel: [2]},
 	},
 	plugins: [
 		[
