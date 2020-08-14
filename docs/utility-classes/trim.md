@@ -11,6 +11,7 @@ By applying the Trim class on a container with components or content you can eas
 - Maximum control of white space in webpages 
 - When using modular CSS components you can always add vertical margins, no longer you need to worry about unwanted white space. 
 - Easy way to remove unwanted margins 
+- Less code writing
 
 ## Example
 
