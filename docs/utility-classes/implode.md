@@ -28,6 +28,8 @@ Sometimes this comes in handy when you want for example remove the white space b
 ## Specifications
 ### Implode
 **Classname:** `.implode`
+- *Not first-child:* Removes all `margin-top` from child elements except the `> *:first-child`
+- *Not last-child:* Removes all `margin-bottom` from child elements except the `> *:last-child`
 
 ## How to use
 #### HTML input
