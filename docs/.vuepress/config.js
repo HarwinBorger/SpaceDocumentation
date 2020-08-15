@@ -21,8 +21,13 @@ let sidebar = [
 		title: 'Settings',
 		children: [
 			['settings/viewports.md', 'Viewports'],
-			['settings/space-units.md', 'Space Units'],
 			['settings/support-legacy.md', 'Support & Legacy Browers'],
+		]
+	},
+	{
+		title: 'Space Units',
+		children: [
+			['space-units/space-units.md', 'Introduction and configuration'],
 		]
 	},
 	{
