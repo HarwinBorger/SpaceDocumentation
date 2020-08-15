@@ -5,14 +5,14 @@
 				<span class="inline-su-1"></span> The red block is 1 space unit height and width.
 			</p>
 
-			<p>It is in a container with 2 space units padding.</p>
+			<p><span class="inline-su-1"></span> It is in a container with 2 space units padding.</p>
 
-			<p>And each paragraph has a lineheight of 2 space units and a vertical margin of
+			<p><span class="inline-su-1"></span> And each paragraph has a lineheight of 2 space units and a vertical margin of
 				1 space unit</p>
 
-			<p>Each line is aligned on the baseline</p>
+			<p><span class="inline-su-1"></span> Each line is aligned on the baseline</p>
 
-			<p>When you scale the window, the size of the space units will change</p>
+			<p><span class="inline-su-1"></span> When you scale the window, the size of the space units will change</p>
 		</div>
 	</Example>
 </template>
