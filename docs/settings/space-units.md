@@ -5,9 +5,9 @@ By adjusting the space-unit size for a certain viewport  you can up- and downsca
 
 ```scss
 $space-unit-sizes: (
-    small: .625rem,
-    medium: .75rem,
-    large: .8125rem
+    small: .75rem,
+    medium: .875rem,
+    large: 1rem
 );
 ```
 > We will add more documentation soon

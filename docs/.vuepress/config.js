@@ -82,6 +82,7 @@ let navbar = [
 //	{text: 'Home', link: '/'},
 	{text: 'DOCS', link: '/'},
 	{text: 'SpaceFramework.dev', link: 'https://spaceframework.dev'},
+	{text: 'Fonts.SpaceFramework.dev', link: 'https://fonts.spaceframework.dev'},
 	{text: 'Github SpaceFramework', link: 'https://github.com/HarwinBorger/SpaceFramework'},
 	{text: 'Github SpaceDocumentation', link: 'https://github.com/HarwinBorger/SpaceDocumentation'},
 ];
