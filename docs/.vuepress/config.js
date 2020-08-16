@@ -9,15 +9,6 @@ let sidebar = [
 		]
 	},
 	{
-		title: 'Base Principles',
-		children: [
-			['base-principles/space-unit-grid.md', '! Space-Unit Grid'],
-			['base-principles/modular.md', '! Modular'],
-			['base-principles/responsive-typography.md', '! Responsive Typography'],
-			['base-principles/responsive-layout.md', '! Responsive Layout'],
-		]
-	},
-	{
 		title: 'Settings',
 		children: [
 			['settings/viewports.md', 'Viewports'],
@@ -28,18 +19,21 @@ let sidebar = [
 		title: 'Space Units',
 		children: [
 			['space-units/space-units.md', 'Introduction and configuration'],
+			['space-units/su-function.md', 'Su()'],
+			['space-units/margin.md', '@Margins'],
+			['space-units/padding.md', '@Paddings'],
+			['space-units/position.md', '@Positions'],
+			['space-units/width-height.md', '@Width & @Height'],
+			['space-units/property.md', '@Custom Properties'],
 		]
 	},
 	{
-		title: 'Layout',
+		title: 'Grid & Layout',
 		children: [
-			['layout/layout-presets.md', 'Layout Presets'],
-			['layout/layout-classes.md', 'Layout Classes'],
-			['layout/margin.md', '@Margins'],
-			['layout/padding.md', '@Paddings'],
-			['layout/position.md', '@Positions'],
-			['layout/width-height.md', '@Width & @Height'],
-			['layout/property.md', '@Custom Properties'],
+			['grid-layout/grid.md', 'Grid'],
+			['grid-layout/grid-template.md', 'Grid Template'],
+			['grid-layout/space-presets.md', 'Space Presets'],
+			['grid-layout/layout-presets.md', 'Layout Presets (1.0 only)'],
 		]
 	},
 	{
@@ -60,15 +54,9 @@ let sidebar = [
 		]
 	},
 	{
-		title: 'Functions',
-		children: [
-			['functions/su.md', 'Su()'],
-		]
-	},
-	{
 		title: '3rd party support',
-		children:[
-			['3rd-party/foundation','Zurb Foundation']
+		children: [
+			['3rd-party/foundation', 'Zurb Foundation']
 		]
 	}
 //	{
@@ -84,12 +72,15 @@ const path = require("path");
 
 
 let navbar = [
-//	{text: 'Home', link: '/'},
-	{text: 'DOCS', link: '/'},
-	{text: 'SpaceFramework.dev', link: 'https://spaceframework.dev'},
-	{text: 'Fonts.SpaceFramework.dev', link: 'https://fonts.spaceframework.dev'},
-	{text: 'Github SpaceFramework', link: 'https://github.com/HarwinBorger/SpaceFramework'},
-	{text: 'Github SpaceDocumentation', link: 'https://github.com/HarwinBorger/SpaceDocumentation'},
+	{text: 'Home', link: 'https://spaceframework.dev'},
+	{text: 'Docs', link: '/'},
+	{text: 'Fonts', link: 'https://fonts.spaceframework.dev'},
+	{
+		text: 'Github', items: [/*  */
+			{text: 'Github SpaceFramework', link: 'https://github.com/HarwinBorger/SpaceFramework'},
+			{text: 'Github SpaceDocumentation', link: 'https://github.com/HarwinBorger/SpaceDocumentation'},
+		]
+	},
 ];
 
 module.exports = {
