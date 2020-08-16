@@ -10,8 +10,8 @@ Vertical Grid System: Brings cross-alignment back to the web
 - Everything is build with one common size factor called a 'space unit'. Which combines typography and grid vertical alignments perfectly. 
 
 ## Recommended to use
-- Space Framework is build on top of Foundation. However we made 
-SpaceFramework to work without Foundation as well, but full power can be unlocked by combining them. (https://foundation.zurb.com/) 
+- Space Framework is build on top of Foundation. However the
+SpaceFramework works also standalone. (https://foundation.zurb.com/) 
 
 ## Installation
 
@@ -19,10 +19,6 @@ SpaceFramework to work without Foundation as well, but full power can be unlocke
 ```
 npm install spaceframework
 ```
-
-## Documentation (work in progress)
-- https://docs.spaceframework.dev (last update May 2019)
-
 
 ## Credits
 Proudly made in the Netherlands by @HarwinBorger
