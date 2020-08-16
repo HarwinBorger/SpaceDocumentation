@@ -91,9 +91,12 @@ module.exports = {
 		sidebar: sidebar,
 		nav: navbar,
 		// Assumes GitHub. Can also be a full GitLab url.
+		repo: 'HarwinBorger/SpaceDocumentation',
 		docsDir: 'docs',
+		docsBranch: 'master',
 		editLinks: true,
-		editLinkText: 'Help us improve this page!'
+		editLinkText: 'Help us improve this page!',
+		lastUpdated: 'Last Updated', // string | boolean
 	},
 	markdown: {
 		toc: {includeLevel: [2]},
