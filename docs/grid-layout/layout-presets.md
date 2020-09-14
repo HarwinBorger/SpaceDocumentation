@@ -1,11 +1,8 @@
-# Layout Presets  <Badge text="1.0 only"/> 
+# Layout Presets 
 
 Within layout presets you define the global spacings of a layout. A good design uses only several different spacing types. Those are spacings between and inside  sections, elements, blocks etc. The size of spacings may be different on different viewports. All of those settings can be defined within layout-presets. Layout-presets will generate [Layout Classes](layout/layout-classes.md) which you can use to apply the spacings on your elements. 
 
 Using layout presets for your global spacing will result in faster development and a better user-experience.  
-
-Learn more about applying [Layout Classes](layout/layout-classes.md)
-
 
 **Table of content**
 [[toc]]
@@ -120,8 +117,6 @@ $layout-presets: (
 ```
  
  ## Layout Classes
- **Requirements:**
- - Configure your custom [Layout-Presets](/settings/layout-presets.md) first.
  
  ### What are Layout Classes?
  

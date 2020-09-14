@@ -30,10 +30,10 @@ let sidebar = [
 	{
 		title: 'Grid & Layout',
 		children: [
-			['grid-layout/grid.md', 'Grid'],
-			['grid-layout/grid-template.md', 'Grid Template'],
-			['grid-layout/space-presets.md', 'Space Presets'],
-			['grid-layout/layout-presets.md', 'Layout Presets (1.0 only)'],
+//			['grid-layout/grid.md', 'Grid'],
+//			['grid-layout/grid-template.md', 'Grid Template'],
+//			['grid-layout/space-presets.md', 'Space Presets'],
+			['grid-layout/layout-presets.md', 'Layout Presets'],
 		]
 	},
 	{
