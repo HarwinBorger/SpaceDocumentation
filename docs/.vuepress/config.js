@@ -82,7 +82,7 @@ let navbar = [
 ];
 
 module.exports = {
-	title: 'SpaceFramework v1.0',
+	title: 'SpaceFramework v1.1',
 	description: 'Just playing around',
 	base: '/',
 	themeConfig: {
