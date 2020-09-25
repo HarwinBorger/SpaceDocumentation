@@ -82,7 +82,7 @@ let navbar = [
 ];
 
 module.exports = {
-	title: 'SpaceFramework v1.1',
+	title: 'SpaceFramework v1.2',
 	description: 'Just playing around',
 	head: [
 		['link', { rel: 'icon', href: '/favicon.ico' }]
