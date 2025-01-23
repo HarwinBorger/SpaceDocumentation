@@ -10,7 +10,7 @@ npm run docs:build
 cd docs/.vuepress/dist
 
 # if you are deploying to a custom domain
- echo 'docs.spaceframework.dev' > CNAME
+ echo 'docs.spaceframework.harwin.nl' > CNAME
 
 git init
 git add -A
